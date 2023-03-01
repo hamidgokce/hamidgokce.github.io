@@ -295,13 +295,40 @@
 						class="image fit"><img src="images/CI Project with Jenkins, Nexus,SonarQube and Slack.png" alt="" /></a>
 					<p>	 Here is my Project-5. In this project, I have created an automated Continuous Integration Pipeline using Jenkins, Nexus, SonarQube, and Slack.<br>
 						📍 I have created 3 EC2 instances for Jenkins, Nexus, and SonarQube with user-data scripts.<br>
-						📍 Created a GitHub repository and GitHub webhook for Jenkins to automatically trigger the build job.<br>
+						 Created a GitHub repository and GitHub webhook for Jenkins to automatically trigger the build job.<br>
 						📍 Created Sonarqube webhook to send notifications to Jenkins once the quality gate reports are ready.<br>
 						📍 Created Jenkinsfile for the pipeline, and configured Jenkins job to get this file from the project repository in GitHub.<br>
 						📍 Created hosted, group, and proxy repositories for Maven in Nexus Artifact Repository<br>
 						📍 Configured Slack Integration with Jenkins for post-build notification after CI jobs.<br>
 						
 						🔸 In my next project, I will use AWS Native tools to create a pipeline for the same.
+						
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/hamidgokce/COURSE-PROJECTS--AWS-DEVOPS/blob/main/Real_Time_DevOps_Project/Project-5_%20CI%20Project%20with%20Jenkins%2C%20Nexus%2CSonarQube%20and%20Slack/README.md" target="_blank"
+								class="button">View Project</a></li>
+					</ul>
+				</article>
+
+
+				<article>
+					<header>
+						<h2><a
+								href="https://github.com/hamidgokce/COURSE-PROJECTS--AWS-DEVOPS/blob/main/Real_Time_DevOps_Project/Project-6_%20Continuous%20Integration%20on%20AWS/README.md" target="_blank">Continuous Integration on AWS Cloud<br /></a></h2>
+					</header>
+					<a href="https://github.com/hamidgokce/COURSE-PROJECTS--AWS-DEVOPS/blob/main/Real_Time_DevOps_Project/Project-6_%20Continuous%20Integration%20on%20AWS/images/Project-6.png" target="_blank"
+						class="image fit"><img src="images/Continuous Integration on AWS.png" alt="" /></a>
+					<p>	In Project-6, I created an automated Continuous Integration Pipeline using AWS Services. One advantage of this setup was eliminating 
+						operational overhead for maintaining servers like Jenkins, Nexus, and Sonar. With this project, I was able to:<br>
+
+						📍 a CodeCommit repository and synchronize it with the local repository using SSH keys.<br>
+						📍Create a CodeArtifact repository for Maven dependencies to be stored/used during the build phase.<br>
+						📍Create a project in SonarCloud for Check Analysis.<br>
+						📍Created an S3 bucket to store build artifacts.<br>
+						📍Configure an SNS topic and subscribe to it for pipeline notifications.<br>
+						📍Configure CodePipeline with 4 stages: Source-Test-Build-Deploy, successfully trigger pipeline with any source code changes.<br>
+						
+						🔸In my next project, I will set up a Continuous Delivery pipeline with Jenkins.<br>
 						
 					</p>
 					<ul class="actions special">
